@@ -42,19 +42,23 @@
       <p>What color best matches your current outfit?</p>
       <label for="color">Select one.</label>
       <input id="color" type="color"><br>
-      <button type="submit">Show Me My Language!</button>
+      <button type="onclick="getResults()">Show Me My Language!</button>
     </form>
   </div>
+  <p id="output"></p>
   <div id="ruby" class="hidden">
-    <h1>Ruby</h1>
+    <h1>Your Results Are:</h1>
+    <h2>Ruby</h1>
     <p>We suggest that you should learn Ruby!</p> 
     </div>
   <div id="python" class="hidden">
-    <h1>Python</h1>
+    <h1>Your Results Are:</h1>
+    <h2>Python</h1>
     <p>Take the next steps to learn Python!</p> 
   </div>
   <div id="rust" class="hidden">
-    <h1>Rust</h1>
+    <h1>Your Results Are:</h1>
+    <h2>Rust</h1>
     <p>Look at you! All signs point to you learning Rust!</p> 
   </div>
   <p>Now that you know which language to learn, go on and take your skills to the next level!</p>

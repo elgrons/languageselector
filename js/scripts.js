@@ -1,3 +1,10 @@
+function getResults() {
+  const animal = document.querySelector("input[name='animal']:checked").value;
+  const allergy = document.querySelector("input[name='allergy']:checked").value;
+  const soup = document.querySelector("input[name='soup']:checked").value;
+  const shoes = document.querySelector("input[name='shoes']:checked").value;
+}
+
 function hideResults() {
   document.getElementById("ruby").setAttribute("class", "hidden");
   document.getElementById("python").setAttribute("class", "hidden");
@@ -6,28 +13,19 @@ function hideResults() {
 }
 
 window.onload = function() {
-  document.getElementById("language-form").onsubmit = function(event) {
+  document.getElementById("language-form").onclick = function(event) {
     event.preventDefault();
-    const animal = document.querySelector("input[name='animal']:checked").value;
-    const allergy = document.querySelector("input[name='allergy']:checked").value;
-    const soup = document.querySelector("input[name='soup']:checked").value;
-    const shoes = document.querySelector("input[name='shoes']:checked").value;
 
-    if (animal = 'a') {
-  document.getElementById("radio-form").removeAttribute("class");
-    } else {
-      if (animal === "a" && allergy === "b") {
+    if (animal === soup) {
+  document.getElementById("ruby").removeAttribute("class");
+    } else if (soup = shoes) {
       document.getElementById("ruby").removeAttribute("class");
-      document.getElementById("python").removeAttribute("class");
-      document.getElementById("rust").removeAttribute("class");
       }
       else if (allergy = shoes) {
       document.getElementById("python").removeAttribute("class");
-      document.getElementById("rust").removeAttribute("class");
       }
-      else if (soup === shoes) {
+      else if (soup === age) {
       document.getElementById("rust").removeAttribute("class");
       }
     }
-};
 };
