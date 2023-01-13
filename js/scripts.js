@@ -1,3 +1,9 @@
+//Business Logic
+//function handleRadio(event) {
+  //event.preventDefault();
+  //const radioSelection = document.querySelector("input[name='animal']:checked").value;
+//}
+
 // User Interface Logic
 
 function hideResults() {
@@ -21,23 +27,25 @@ window.onload = function() {
     event.preventDefault();
     hideResults();
     hideResultsAndError();
-    const age = parseInt(document.querySelector("input#age").value);
-    const height = parseInt(document.querySelector("input#height").value);
-   
+    const radioSelection1 = document.querySelector("input[name='animal']:checked").value;
+    const radioSelection2 = document.querySelector("input[name='allergy']:checked").value;
+    const radioSelection3 = document.querySelector("input[name='soup']:checked").value;
+    const radioSelection4 = document.querySelector("input[name='shoes']:checked").value;
+    const radioSelection5 = document.querySelector("input[name='age']:checked").value;
   if (!age || !height) {
     document.getElementById("error-message").removeAttribute("class");
     } else {
-    if (age >= 12 && height >= 60) {
-      document.getElementById("swings").removeAttribute("class");
-      document.getElementById("coaster").removeAttribute("class");
-      document.getElementById("tower").removeAttribute("class");
+    if ("animal" = 'cat' + "soup" = 'eat') {
+      document.getElementById("ruby").removeAttribute("class");
+      document.getElementById("python").removeAttribute("class");
+      document.getElementById("rust").removeAttribute("class");
       }
       else if (age >= 12 || height >= 48) {
-      document.getElementById("swings").removeAttribute("class");
-      document.getElementById("coaster").removeAttribute("class");
+      document.getElementById("python").removeAttribute("class");
+      document.getElementById("rust").removeAttribute("class");
       }
       else if (age >= 6) {
-        document.getElementById("swings").removeAttribute("class");
+        document.getElementById("rust").removeAttribute("class");
       }
       else {
         document.getElementById("sorry").removeAttribute("class");
