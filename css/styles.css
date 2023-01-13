@@ -2,11 +2,6 @@
   display: none;
 }
 
-#error-message {
-  font-weight: 600; 
-  color: red;
-}
-
 h2 {
   font-size: 16px;
 }
