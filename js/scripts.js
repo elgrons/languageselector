@@ -1,18 +1,18 @@
 // User Interface Logic
 
 function hideResults() {
-  document.getElementById("swings").setAttribute("class", "hidden");
-  document.getElementById("coaster").setAttribute("class", "hidden");
-  document.getElementById("tower").setAttribute("class", "hidden");
+  document.getElementById("python").setAttribute("class", "hidden");
+  document.getElementById("ruby").setAttribute("class", "hidden");
+  document.getElementById("rust").setAttribute("class", "hidden");
   document.getElementById("sorry").setAttribute("class", "hidden");
 }
 
 function hideResultsAndError() {
   // New line of code to hide the error message.
   document.getElementById("error-message").setAttribute("class", "hidden");
-  document.getElementById("swings").setAttribute("class", "hidden");
-  document.getElementById("coaster").setAttribute("class", "hidden");
-  document.getElementById("tower").setAttribute("class", "hidden");
+  document.getElementById("python").setAttribute("class", "hidden");
+  document.getElementById("ruby").setAttribute("class", "hidden");
+  document.getElementById("rust").setAttribute("class", "hidden");
   document.getElementById("sorry").setAttribute("class", "hidden");
 }
   
@@ -45,3 +45,13 @@ window.onload = function() {
     }
   };
 };
+
+//radio form
+function handleRadio(event) {
+  event.preventDefault();
+  const radioSelection = document.querySelector("input[name='flavor']:checked").value;
+}
+
+window.addEventListener("load", function() {
+  document.getElementById("radio-form").addEventListener("submit", handleRadio);
+});

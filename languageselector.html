@@ -8,46 +8,99 @@
 <body>
   <div>
     <h1>Fun Online Language Selector Quiz</h1>
-
     <p>Are you interested in programming?</p>
-    <p>Answer the following questions and learn which programming language you should learn next!<</p>
+    <p>Answer the following questions and learn which programming language you should learn next!</p>
     <p>Will you get Ruby, Python, or Rust?</p>
-
-
-
-
-
-
-
-
-    
-
-    <form id="userInfo">
-      <p id="error-message" class="hidden">Please enter an age and height in whole numbers.</p>
-      <label for="age">Age</label>
-      <input id="age" type="text" name="age">
-      <label for="height">Height in inches</label>
-      <input id="height" type="text" name="height">
-      <button type="submit">Show me what I can ride!</button>
+    <h2>Do you prefer cats or dogs?</h2>
+      <form id="radio-form">
+        <label>
+          <input type="radio" name="animal" value="cats" checked>
+          Cats
+        </label><br>
+        <label>
+          <input type="radio" name="animal" value="dogs">
+          Dogs
+        </label><br>
+        <button type="submit">Submit Selection</button>
     </form>
+    <h2>Do you have allergies?</h2>
+      <form id="radio-form">
+        <label>
+          <input type="radio" name="yn" value="yes" checked>
+          Yes
+        </label><br>
+        <label>
+          <input type="radio" name="yn" value="no">
+          No
+        </label><br>
+        <button type="submit">Submit Selection</button>
+    </form>
+    <h2>Do you eat or drink soup?</h2>
+      <form id="radio-form">
+        <label>
+          <input type="radio" name="soup" value="eat" checked>
+          Eat
+        </label><br>
+        <label>
+          <input type="radio" name="soup" value="drink">
+          Drink
+        </label><br>
+        <button type="submit">Submit Selection</button>
+    </form>
+    <h2>How many pairs of shoes do you own?</h2>
+      <form id="radio-form">
+        <label>
+          <input type="radio" name="shoes" value="few" checked>
+          A few (1-3 pairs)
+        </label><br>
+        <label>
+          <input type="radio" name="shoes" value="some">
+          Some (4-6 pairs)
+        </label><br>
+        <label>
+          <input type="radio" name="shoes" value="many">
+          Many (7+ pairs)
+        </label><br>
+        <button type="submit">Submit Selection</button>
+    </form>
+    <h2>How old are you?</h2>
+    <form id="radio-form">
+      <label>
+        <input type="radio" name="age" value="young" checked>
+        Young (Under 18)
+      </label><br>
+      <label>
+        <input type="radio" name="age" value="adult">
+        Adult (18-64)
+      </label><br>
+      <label>
+        <input type="radio" name="age" value="senior">
+        Young at Heart (65+)
+      </label><br>
+      <button type="submit">Submit Selection</button>
+  </form>
+  <p>Now that you know which language to learn, go on and take your skills to the next level!</p>
+  </div>
+  <div id="Ruby" class="hidden">
+    <h1>You can ride the Swings.</h1>
+    <p>To ride the Swings you need to be at least 6 years old.</p> 
+  </div>
+  <div id="Python" class="hidden">
+    <h1>You can ride the Roller Coaster.</h1>
+    <p>To ride the Roller Coaster you need to be either 12 years old or 48 or more inches tall.</p> 
+  </div>
+  <div id="Rust" class="hidden">
+    <h1>You can ride the Tower of Doom.</h1>
+    <p>To ride the Tower of Doom you need to be at least 12 years old and 60 or more inches tall.</p> 
+  </div>
+</body>
+</html>
+<!----everything below is copy/paste from examples and I'm trying to hack it together->
 
-    <div id="swings" class="hidden">
-      <h1>You can ride the Swings.</h1>
-      <p>To ride the Swings you need to be at least 6 years old.</p> 
-    </div>
-    <div id="coaster" class="hidden">
-      <h1>You can ride the Roller Coaster.</h1>
-      <p>To ride the Roller Coaster you need to be either 12 years old or 48 or more inches tall.</p> 
-    </div>
-    <div id="tower" class="hidden">
-      <h1>You can ride the Tower of Doom.</h1>
-      <p>To ride the Tower of Doom you need to be at least 12 years old and 60 or more inches tall.</p> 
-    </div>
+
+
     <div id="sorry" class="hidden">
       <h1>You are too young to ride! Sorry!</h1>
       <p>Come back when you are 6 years old.</p> 
     </div>
   </div>
-  <p>Now that you know which language to learn, go on and take your skills to the next level!</p>
-</body>
-</html>
