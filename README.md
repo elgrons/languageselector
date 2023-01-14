@@ -1,6 +1,6 @@
 # Programming Language Selector
 
-#### By Eliot Gronstal
+#### By Eliot Gronstal 1.13.23
 
 #### Programming Language Suggester made for my Independent Code Review during my second week of Epicodus Programming School.
 
@@ -21,8 +21,6 @@ A website that hosts a Programming Language Suggester webpage that asks a person
 * Answer the questions to find out the recommended programming language for you to learn!
 
 If you had feed back or questions email: eliot.lauren@gmail.com
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
