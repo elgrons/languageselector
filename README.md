@@ -9,7 +9,6 @@
 * HTML
 * CSS
 * Javascript
-* _here_
 
 ## Description
 
@@ -27,8 +26,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* Absolutely no functionality yet, TBD
+* Radio buttons are a nice idea, but perhaps not my finest choice for this project as they are not working within my javascript code
 
 ## License
 
