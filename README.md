@@ -16,11 +16,11 @@ A website that hosts a Programming Language Suggester webpage that asks a person
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone the repository to your desktop from Github.com
+* Open languageselector.html in your web browser.
+* Answer the questions to find out the recommended programming language for you to learn!
+
+If you had feed back or questions email: eliot.lauren@gmail.com
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
@@ -28,6 +28,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 * Absolutely no functionality yet, TBD
 * Radio buttons are a nice idea, but perhaps not my finest choice for this project as they are not working within my javascript code
+* More questions could always be added!
 
 ## License
 
