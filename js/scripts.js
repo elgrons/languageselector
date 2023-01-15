@@ -16,7 +16,7 @@ function getResults(event) {
   if (resultRange <= 5) {
     document.getElementById("ruby").removeAttribute("class");
   } 
-    else if (resultRange >= 6 || resultRange <= 7) {
+    else if (resultRange <= 7) {
     document.getElementById("python").removeAttribute("class");
   }
     else if (resultRange >= 8) {
