@@ -24,7 +24,7 @@ If you had feed back or questions email: eliot.lauren@gmail.com
 
 ## Known Bugs
 
-* Absolutely no functionality yet, TBD
+* If your score is >=8 the return language suggestion is still Python, when it should be Rust.
 * Radio buttons are a nice idea, but perhaps not my finest choice for this project as they are not working within my javascript code
 * More questions could always be added!
 
