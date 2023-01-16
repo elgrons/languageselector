@@ -24,7 +24,7 @@ If you had feed back or questions email: eliot.lauren@gmail.com
 
 ## Known Bugs
 
-* Reset Button isn't resetting the form. I'm having trouble understanding how to reset a radio button as the value cannot be "null" as in the examples from the coursework.
+* The "let= form..." variable delcaration is in mutliple eventListeners. I did this because I was getting console errors, but I think it is code cluttering and unnesssecary. I'm unsure how to debug, as the functionality is working as intended.
 * More questions could always be added!
 
 ## License
