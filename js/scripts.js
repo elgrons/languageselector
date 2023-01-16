@@ -21,7 +21,8 @@ function getResults(event) {
   }
     else if (resultRange >= 8) {
       document.getElementById("rust").removeAttribute("class");
-  };
+    };
+
   form.addEventListener("submit"), function() {
     reset.removeAttribute("class");
   }
@@ -34,10 +35,13 @@ window.addEventListener("load", function() {
   //resetButton.removeAttribute("class");
 
   resetButton.addEventListener("click", function() {
-    form.setAttribute("class", "reset");
-    document.getElementById("input[name='animal']:checked").value = "1";
-    document.getElementById("input[name='allergy']:checked").value = "1";
-    document.getElementById("input[name='soup']:checked").value = "1";
-    document.getElementById("input[name='shoes']:checked").value = "1";
+    document.getElementById("language-form").reset();
+    hideResults;
   });
+      //form.setAttribute("class", "reset");
+//     document.getElementById("input[name='animal']:checked").value = "1";
+//     document.getElementById("input[name='allergy']:checked").value = "1";
+//     document.getElementById("input[name='soup']:checked").value = "1";
+//     document.getElementById("input[name='shoes']:checked").value = "1";
+//   });
 });
