@@ -6,11 +6,11 @@
   <title>Language Selector Quiz</title>
 </head>
 <body>
-  <div>
+  <div class="intro-style">
     <h1>Fun Online Language Selector Quiz</h1>
     <p>Are you interested in learning how to code?</p>
     <p>Answer the following questions and learn which programming language you should learn!</p>
-    <p>Will it be Ruby, Python, or Rust? Let's see!</p>
+    <p><strong>Will it be Ruby, Python, or Rust? Let's see!</strong></p>
     <form id="language-form">
       <!--question1-->
       <p>Do you prefer dogs or cats?</p>
@@ -49,20 +49,22 @@
     <br>
   </div>
   <div id="ruby" class="hidden">
-    <h1>Your Results Are:</h1>
+    <h2>Your Results Are:</h2>
     <h2>Ruby</h2>
-    <p>We suggest that you should learn Ruby!</p>
+    <p class="result-style">We suggest that you should learn Ruby!</p>
   </div>
   <div id="python" class="hidden">
-    <h1>Your Results Are:</h1>
-    <h2>Python</h2>
-    <p>Take the next steps to learn Python!</p> 
+    <h3>Your Results Are:</h3>
+    <h3>Python</h3>
+    <p class="result-style">Take the next steps to learn Python!</p> 
   </div>
   <div id="rust" class="hidden">
-    <h1>Your Results Are:</h1>
-    <h2>Rust</h2>
-    <p>Look at you! All signs point to you learning Rust!</p> 
+    <h4>Your Results Are:</h4>
+    <h4>Rust</h4>
+    <p class="result-style">Look at you! All signs point to you learning Rust!</p> 
   </div>
-  <button id="reset" type="button" class="reset" value="Clear Form">Reset and Try Again</button>  
+  <div class="intro-style">
+  <button id="reset" type="button" class="reset">Reset and Try Again</button>
+  </div>
 </body>
 </html>

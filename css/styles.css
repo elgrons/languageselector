@@ -2,10 +2,39 @@
   display: none;
 }
 
-h2 {
-  font-size: 16px;
+h1 {
+  color:blueviolet;
+  background-color: rgb(120, 169, 239);
+  text-align: center;
 }
 
-.question {
-  font-style: bold;
+h2 {
+  color:darkcyan;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
+h3 {
+  color:rgb(28, 14, 146);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
+h4 {
+  color:rgb(180, 29, 160);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
+.intro-style {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.result-style {
+  font-family:cursive;
+  text-align: center;
 }

@@ -25,6 +25,7 @@ If you had feed back or questions email: eliot.lauren@gmail.com
 ## Known Bugs
 
 * The "let= form..." variable delcaration is in mutliple eventListeners. I did this because I was getting console errors, but I think it is code cluttering and unnesssecary. I'm unsure how to debug, as the functionality is working as intended.
+* The first time one uses the 'Rest and Try Again' button it requires a "double click" or "double submit" but after that it works every time with only one click/submit.
 * More questions could always be added!
 
 ## License

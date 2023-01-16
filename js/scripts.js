@@ -34,7 +34,6 @@ window.addEventListener("load", function() {
   let form = document.getElementById("language-form")
   let resetButton = document.getElementById("reset");
   form.addEventListener("submit", getResults);
-  //resetButton.removeAttribute("class");
 
   resetButton.addEventListener("click", function() {
     document.getElementById("language-form").reset();
