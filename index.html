@@ -20,9 +20,9 @@
       <label for="cats">Cats</label><br>
       <!--question2-->
       <p>Do you have allergies?</p>
-      <input type="radio" name="allergy" value="2" id="yes" checked>
+      <input type="radio" name="allergy" value="1" id="yes" checked>
       <label for="yes">Yes</label><br>
-      <input type="radio" name="allergy" value="1" id="no">
+      <input type="radio" name="allergy" value="2" id="no">
       <label for="no">No</label><br>
       <!--question3-->
       <p>Do you eat or drink soup?</p>
@@ -41,14 +41,17 @@
       <!--question5-->
       <p>What color best matches your current outfit?</p>
       <label for="color">Select one.</label>
-      <input id="color" type="color"><br>
+      <input id="color" type="color">
+      <br>
+      <br>
       <button id="button" type="submit">Show Me My Language!</button>
     </form>
+    <br>
   </div>
   <div id="ruby" class="hidden">
     <h1>Your Results Are:</h1>
     <h2>Ruby</h2>
-    <p>We suggest that you should learn Ruby!</p> 
+    <p>We suggest that you should learn Ruby!</p>
   </div>
   <div id="python" class="hidden">
     <h1>Your Results Are:</h1>
@@ -60,5 +63,6 @@
     <h2>Rust</h2>
     <p>Look at you! All signs point to you learning Rust!</p> 
   </div>
+  <button id="reset" type="button" class="reset">Reset and Try Again</button>  
 </body>
 </html>

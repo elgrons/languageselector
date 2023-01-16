@@ -24,8 +24,7 @@ If you had feed back or questions email: eliot.lauren@gmail.com
 
 ## Known Bugs
 
-* If your score is >=8 the return language suggestion is still Python, when it should be Rust.
-* Radio buttons are a nice idea, but perhaps not my finest choice for this project as they are not working within my javascript code
+* Reset Button isn't resetting the form. I'm having trouble understanding how to reset a radio button as the value cannot be "null" as in the examples from the coursework.
 * More questions could always be added!
 
 ## License

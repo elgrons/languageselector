@@ -6,7 +6,7 @@ function hideResults() {
   }
 
 function getResults(event) {
-  event.preventDefault();
+    event.preventDefault();
   const animal = parseInt(document.querySelector("input[name='animal']:checked").value);
   const allergy = parseInt(document.querySelector("input[name='allergy']:checked").value);
   const soup = parseInt(document.querySelector("input[name='soup']:checked").value);
@@ -22,12 +22,22 @@ function getResults(event) {
     else if (resultRange >= 8) {
       document.getElementById("rust").removeAttribute("class");
   };
-
-  //document.getElementById('language-form').reset();
+  form.addEventListener("submit"), function() {
+    reset.removeAttribute("class");
+  }
 };
 
-
 window.addEventListener("load", function() {
-  const form = document.getElementById("language-form")
+  let form = document.getElementById("language-form")
+  let resetButton = document.getElementById("reset");
   form.addEventListener("submit", getResults);
+  //resetButton.removeAttribute("class");
+
+  resetButton.addEventListener("click", function() {
+    form.setAttribute("class", "reset");
+    document.getElementById("input[name='animal']:checked").value = "1";
+    document.getElementById("input[name='allergy']:checked").value = "1";
+    document.getElementById("input[name='soup']:checked").value = "1";
+    document.getElementById("input[name='shoes']:checked").value = "1";
+  });
 });
