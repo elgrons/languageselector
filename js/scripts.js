@@ -4,12 +4,12 @@ function hideResults() {
   document.getElementById("ruby").setAttribute("class", "hidden");
   document.getElementById("python").setAttribute("class", "hidden");
   document.getElementById("rust").setAttribute("class", "hidden");
-  }
+}
 
-  function clearRadioButtons(){
-    const buttons = document.querySelectorAll("input[type=radio]");
-    for(const i=0;i<ele.length;i++){
-        buttons[i].checked = false;
+function clearRadioButtons() {
+  const buttons = document.querySelectorAll("input[type=radio]");
+  for(const i=0;i<ele.length;i++){
+    buttons[i].checked = false;
     }
   }
 
@@ -32,15 +32,15 @@ function getResults(event) {
     else if (resultRange >= 8) {
     document.getElementById("rust").removeAttribute("class");
     };
-  };
+};
 
   window.addEventListener("load", function() {
-      document.querySelector("form#language-form").addEventListener("submit", getResults);
-    let form = document.getElementById("language-form")
-    let resetButton = document.getElementById("reset");
-  
-    resetButton.addEventListener("click", function() {
-      document.getElementById("language-form").reset();
-      form.addEventListener("reset", hideResults);
-    });
+  let form = document.getElementById("language-form")
+  document.querySelector("form#language-form").addEventListener("submit", getResults);
+  document.getElementById("language-form").addEventListener("click", hideResults);
+
+  // document.querySelector("input[name='animal']").value = null;
+  // document.querySelector("input[name='allergy']").value = null;
+  // document.querySelector("input[name='soup']").value = null;
+  // document.querySelector("input[name='shoes']").value = null;
 });
